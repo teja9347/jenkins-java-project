@@ -9,6 +9,6 @@ public class CalculatorTest extends TestCase {
 		Assert.assertEquals(cal.add(10, 20), 30);
 	}
 	public void testMultiply(){
-		Assert.assertEquals(cal.multiply(10, 20), 200);
+		Assert.assertEquals(cal.multiply(10, 50), 200);
 	}
 }
